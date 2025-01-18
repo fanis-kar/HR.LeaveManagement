@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E92564D-91DC-4906-96D1-C41066CA5B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CE5101CB-4A5D-4B2E-AFD2-D15D4DE44B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A506AD0C-1038-42BC-98C3-E27FA6110567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{750AE8BA-261E-4BB8-8D28-D8556E5368F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{427F54C9-4BFB-451F-8EB5-7B521109F71C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{06DE4EDE-7561-4563-B155-135E888F8745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A506AD0C-1038-42BC-98C3-E27FA6110567} = {0E92564D-91DC-4906-96D1-C41066CA5B2D}
+		{750AE8BA-261E-4BB8-8D28-D8556E5368F8} = {0E92564D-91DC-4906-96D1-C41066CA5B2D}
+		{427F54C9-4BFB-451F-8EB5-7B521109F71C} = {0E92564D-91DC-4906-96D1-C41066CA5B2D}
+		{06DE4EDE-7561-4563-B155-135E888F8745} = {0E92564D-91DC-4906-96D1-C41066CA5B2D}
+		{B196A76D-24BD-4A48-BEF9-6EB1BD6827A7} = {750AE8BA-261E-4BB8-8D28-D8556E5368F8}
+	EndGlobalSection
+EndGlobal
