@@ -1,0 +1,6 @@
+@HR.LeaveManagement.API_HostAddress = http://localhost:7159
+
+GET {{HR.LeaveManagement.API_HostAddress}}/swagger/index.html
+Accept: application/json
+
+###
